@@ -12,7 +12,7 @@ public class TestController {
 
     @GetMapping("hello")
     public String hello(){
-        String message = "hello world";
+        String message = "hello jenkins";
         return message;
     }
 
